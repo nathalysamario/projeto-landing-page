@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+
+#titulo-menu-superior{
+    margin-top: 50px;
+    margin-left: 150px;
+    
+}
+
+#texto-menu-superior{
+    margin-left: 150px;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+#menu-superior{
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: white;
+
+}
+
+#menu-informacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.ícone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.texto-informativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 75px;
+
+}
+
+#VIDEO{
+    margin: 50px 25px 50px 125px;
+}
+
+#carrossel{
+    background-color: #247BA0;    
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+#bruna{
+    display: none;
+}
+
+
+#CARROSEL {
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-cards {
+    color: #EAECE5;
+    font-size: 25px;
+    text-align: center;
+}
+
+#div-cards {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px; /* Adiciona espaço entre os cards */
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    align-items: center; /* Centraliza os cards verticalmente */
+}
+
+.card { /* Assumindo que seus cards têm uma classe 'card' */
+    background-color:#247BA0; /* Exemplo de cor de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.seta {
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+#seta-esquerda {
+    margin-top: 55%;
+    display: none;
+}
+
+#seta-direita {
+    margin-top: 55%;
+}
+
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    background-color: white;
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 27px;
+    text-align: center;
+    margin-top: 20px;
+    color: #383838;
+}
+
+input{
+    width:300px ;
+    height:40px ;
+    background-color:#EAECE5 ;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    color: white;
+    background-color: #247BA0;
+    height: 45px;
+    width: 250px;
+    margin-top: 15px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4daed7 ;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0d516e;
+    transition-duration: 0.5s;
+}
